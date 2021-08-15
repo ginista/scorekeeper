@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 15px;
+    padding:8px 7px;
+    letter-spacing: 1px;
+}
+h2{
+  margin:0px;
+  padding-left: 10px;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   font-weight: normal;
+   padding-left: 10px;
+}
+div{
+    border: rgb(190, 186, 186) solid 2px;
+    box-shadow: inset 0px 0px 50px 5px rgb(190, 186, 186);
+    padding-bottom: 20px;
+  
+}
+#max{
+    padding-left: 10px;
+}
+.Reset{
+    background-color:rgb(211, 24, 24);
+    border-radius: 5px;
+    border-color:rgb(211, 24, 24);
+}
+.player1{
+    border-radius: 5px;
+ border-color: rgb(33, 159, 175);
+    background-color: rgb(33, 159, 175);
+    margin-left:0.5px;
+}
+.player2{
+    border-radius: 5px;
+    border-color:rgb(53, 114, 53);
+    background-color: rgb(53, 114, 53);
+}
+button:disabled{
+    cursor:not-allowed;
+}
